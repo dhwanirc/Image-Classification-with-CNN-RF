@@ -9,8 +9,10 @@ Then parents keep reminding the baby that if it is red and round, it’s an “a
 So, same as parents, we fed various images are fed in machine learning model (you can consider that baby’s brain) with some maths equations (consider it as those chemical reactions in brain) which recognize the different features (the factors that baby will consider to recognize the fruit like color, size, shape, smell, taste). And with different combinations baby will finally classify the fruits.
 
 So two tasks are taking place here to identify the fruits for image:
-Feature extraction  Deciding the factors to be considered
-Classification  See the combinations of the features and check with which fruit it is most similar.
+
+Feature extraction --> Deciding the factors to be considered
+
+Classification --> See the combinations of the features and check with which fruit it is most similar.
 
 Conventionally, only one algorithm called Convolutional Neural Network (CNN) is used for both the tasks as CNN. But what if I use the algorithms working individually best for each task! (one for Feature Extraction and one for Classification).  CNN does pretty good job in identifying the features. For classification, “Random Forest” algorithm is well-known. Hence, I have used Random forest+ CNN to identify the fruit rather than only CNN. 
 
