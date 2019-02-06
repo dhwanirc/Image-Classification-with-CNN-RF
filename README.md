@@ -10,7 +10,7 @@ So, same as parents, we fed various images are fed in machine learning model (yo
 
 So two tasks are taking place here to identify the fruits for image:
 
-Feature extraction --> Deciding the factors to be considered
+Feature extraction --> Deciding the factors to be considered to identify the fruit
 
 Classification --> See the combinations of the features and check with which fruit it is most similar.
 
