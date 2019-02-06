@@ -16,7 +16,7 @@ Classification --> See the combinations of the features and check with which fru
 
 Conventionally, only one algorithm called Convolutional Neural Network (CNN) is used for both the tasks as CNN. But what if I use the algorithms working individually best for each task! (one for Feature Extraction and one for Classification).  CNN does pretty good job in identifying the features. For classification, “Random Forest” algorithm is well-known. Hence, I have used Random forest+ CNN to identify the fruit rather than only CNN. 
 
-This novel algorithm gave me 5 times more accuracy than the conventionally using only CNN.
+### This novel algorithm gave me 5 times more accuracy than the conventionally using only CNN.
 
 
 
